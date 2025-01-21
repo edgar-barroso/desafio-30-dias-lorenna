@@ -3,14 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f9fafb; 
+  --foreground: #ECE7E3;
+  --primary: #DCB687;    
+  --secondary: #BB8E5E;
+   
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #f9fafb; 
+    --foreground: #ECE7E3; 
+    --primary: #DCB687;   
+    --secondary: #BB8E5E; 
+  
   }
 }
 
@@ -18,4 +24,65 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  @keyframes scrolling {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes scrolling-inverse {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .carousel {
+    display: flex;
+    > * {
+      flex: 0 0 100%;
+    }
+
+  }
+  .card-group {
+    display: flex;
+    animation: scrolling 20s linear infinite;
+  }
+  .card-group-inverse {
+    display: flex;
+    animation: scrolling-inverse 20s linear infinite;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+      
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .pulse-text {
+    animation: pulse 1.5s infinite;
+  }
+  
 }
