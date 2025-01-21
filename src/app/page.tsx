@@ -291,7 +291,7 @@ export default function Home() {
             Um método prático, eficaz e comprovado para dizer adeus ás
             gordurinhas indesejadas
           </h2>
-          <div className="max-md:hidden ">
+          <div className="max-md:hidden max-w-[250px]">
             <Button />
           </div>
         </div>
