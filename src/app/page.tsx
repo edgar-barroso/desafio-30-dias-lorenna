@@ -48,7 +48,7 @@ export default function Home() {
           <Belt />
         </div>
       </section>
-      <motion.section className="relative flex flex-col items-center gap-10 pt-20 bg-background z-20">
+      <motion.section className="relative bg-[#ECE7E3] flex flex-col items-center gap-10 pt-20 z-20 ">
         <p className="text-gray-600 border-primary border-l-4 pl-2">Assista</p>
         <video
           className="w-[800px] rounded-2xl border-4 border-primary"
@@ -59,7 +59,44 @@ export default function Home() {
         </video>
         <Button />
       </motion.section>
-
+      <motion.section
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="flex flex-row px-[10vw] max-md:px-[5vw] gap-10 my-10"
+      >
+        <Image
+          src={"/lorenna-3.jpg"}
+          alt={""}
+          width={500}
+          height={500}
+          className="rounded-3xl w-auto h-[400px] max-md:hidden"
+        />
+        <div className="flex flex-col gap-8 max-md:items-center ">
+          <p className="text-gray-600 border-primary border-l-4 pl-2">
+            Sobre mim
+          </p>
+          <h3 className=" text-3xl max-md:text-center text-secondary">
+            Quem sou eu?
+          </h3>
+          <p className="text-gray-700 text-wrap">
+            Uma nutri que entende você! Sou mulher, mãe e esposa, e meu
+            propósito é ajudar outras mulheres e mães a recuperarem sua
+            autoestima e alcançarem o emagrecimento de forma definitiva e
+            saudável. Com mais de 10 anos de experiência na área da saúde, sou
+            especialista em Nutrição Estética Funcional e esteticista desde
+            2012. Durante minha trajetória, percebi a necessidade de ir além dos
+            tratamentos estéticos e trabalhar diretamente no foco do problema: a
+            relação com a alimentação e o bem-estar. Como nutricionista há mais
+            de 6 anos, aplico estratégias personalizadas e funcionais que
+            promovem saúde, confiança e resultados reais. Sou também autora de
+            dois artigos publicados sobre insatisfação corporal. Meu objetivo?
+            Empoderar mulheres a transformarem seus corpos, sua relação com a
+            alimentação e, acima de tudo, suas vidas, de forma leve, sustentável
+            e cheia de autoestima.
+          </p>
+        </div>
+      </motion.section>
       <motion.section
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -267,8 +304,7 @@ export default function Home() {
           <Button />
         </div>
       </motion.section>
-      <motion.section className="h-40"></motion.section>
-      <footer className="flex flex-col items-center text-secondary bg-[#ECE7E3] py-2 text-sm">
+      <footer className="flex flex-col items-center text-secondary bg-[#56483c] py-2 text-sm">
         <Image
           width={120}
           height={80}
