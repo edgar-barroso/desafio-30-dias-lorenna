@@ -54,9 +54,11 @@ export default function Home() {
           className="w-[800px] rounded-2xl border-4 border-primary"
           controls
           preload="auto"
+          playsInline
         >
           <source src="/video.mp4" type="video/mp4" />
         </video>
+
         <Button />
       </motion.section>
       <motion.section
