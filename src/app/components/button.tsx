@@ -2,9 +2,7 @@ import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 
 export function Button() {
-  const phoneNumber = '5554999272907';
-  const message = 'Olá, gostaria de participar do desafio 30 dias para emagrecimento!'; 
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappLink = `https://chat.whatsapp.com/KT5nZWqqFC3KS2h7PdHqHb`;
 
   return (
     <Link 
