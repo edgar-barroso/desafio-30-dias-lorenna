@@ -82,20 +82,14 @@ export default function Home() {
             Quem sou eu?
           </h3>
           <p className="text-gray-700 text-wrap">
-            Uma nutri que entende você! Sou mulher, mãe e esposa, e meu
-            propósito é ajudar outras mulheres e mães a recuperarem sua
-            autoestima e alcançarem o emagrecimento de forma definitiva e
-            saudável. Com mais de 10 anos de experiência na área da saúde, sou
-            especialista em Nutrição Estética Funcional e esteticista desde
-            2012. Durante minha trajetória, percebi a necessidade de ir além dos
-            tratamentos estéticos e trabalhar diretamente no foco do problema: a
-            relação com a alimentação e o bem-estar. Como nutricionista há mais
-            de 6 anos, aplico estratégias personalizadas e funcionais que
-            promovem saúde, confiança e resultados reais. Sou também autora de
-            dois artigos publicados sobre insatisfação corporal. Meu objetivo?
-            Empoderar mulheres a transformarem seus corpos, sua relação com a
-            alimentação e, acima de tudo, suas vidas, de forma leve, sustentável
-            e cheia de autoestima.
+            Quem é nutricionista Lorenna Lizot?
+Sou nutri Lorenna Lizot especialista em resultados sem restrições para mulheres e mães.
+Transformo a vida de mulheres diariamente aumentando sua autoestima e recuperando seu corpo. Me especializo diariamente na nutrição humanizada, levando saúde mental e prazer da alimentação junto com a busca do sonhado resultado estético.
+
+
+Uma mulher inspirada, mãe de duas meninas e uma profissional dedicada. Descobrir minha verdadeira paixão: auxiliar mulheres insatisfeitas a encontrarem o amor próprio e a confiança em si mesmas. Redirecionei minha carreira e foquei em ajudar mães a recuperarem sua autoestima através da alimentação equilibrada e do abandono de maus hábitos.
+
+Hoje isso é possível devido uma grande experiência atendendo mulheres por mais de 10 anos com diversas queixas estéticas. Além de esteticista e pós graduada em nutrição estética juntei toda minha bagagem para te ajudar, vem comigo que te mostro como é possível ser mães e resgatar sua autoestima através da alimentação e de uma forma duradoura, sem sofrimento.
           </p>
         </div>
       </motion.section>
@@ -327,20 +321,14 @@ export default function Home() {
             Quem sou eu?
           </h3>
           <p className="text-gray-700 text-wrap">
-            Uma nutri que entende você! Sou mulher, mãe e esposa, e meu
-            propósito é ajudar outras mulheres e mães a recuperarem sua
-            autoestima e alcançarem o emagrecimento de forma definitiva e
-            saudável. Com mais de 10 anos de experiência na área da saúde, sou
-            especialista em Nutrição Estética Funcional e esteticista desde
-            2012. Durante minha trajetória, percebi a necessidade de ir além dos
-            tratamentos estéticos e trabalhar diretamente no foco do problema: a
-            relação com a alimentação e o bem-estar. Como nutricionista há mais
-            de 6 anos, aplico estratégias personalizadas e funcionais que
-            promovem saúde, confiança e resultados reais. Sou também autora de
-            dois artigos publicados sobre insatisfação corporal. Meu objetivo?
-            Empoderar mulheres a transformarem seus corpos, sua relação com a
-            alimentação e, acima de tudo, suas vidas, de forma leve, sustentável
-            e cheia de autoestima.
+            Quem é nutricionista Lorenna Lizot?
+Sou nutri Lorenna Lizot especialista em resultados sem restrições para mulheres e mães.
+Transformo a vida de mulheres diariamente aumentando sua autoestima e recuperando seu corpo. Me especializo diariamente na nutrição humanizada, levando saúde mental e prazer da alimentação junto com a busca do sonhado resultado estético.
+
+
+Uma mulher inspirada, mãe de duas meninas e uma profissional dedicada. Descobrir minha verdadeira paixão: auxiliar mulheres insatisfeitas a encontrarem o amor próprio e a confiança em si mesmas. Redirecionei minha carreira e foquei em ajudar mães a recuperarem sua autoestima através da alimentação equilibrada e do abandono de maus hábitos.
+
+Hoje isso é possível devido uma grande experiência atendendo mulheres por mais de 10 anos com diversas queixas estéticas. Além de esteticista e pós graduada em nutrição estética juntei toda minha bagagem para te ajudar, vem comigo que te mostro como é possível ser mães e resgatar sua autoestima através da alimentação e de uma forma duradoura, sem sofrimento.
           </p>
         </div>
       </motion.section>
